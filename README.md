@@ -1,8 +1,3 @@
-<p align="center">
-  <a href="https://jodie.lekoarts.de">
-    <img alt="LekoArts" src="https://img.lekoarts.de/gatsby/gatsby-site-illustration.png" />
-  </a>
-</p>
 <h1 align="center">
   Gatsby Starter Portfolio: Jodie
 </h1>
@@ -41,23 +36,6 @@ Also be sure to check out other [Free & Open Source Gatsby Themes](https://theme
 ## 🚀 Getting Started
 
 [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/LekoArts/gatsby-starter-portfolio-jodie)
-
-### 1. **Create a Gatsby site.**
-
-Use `git` to clone the site and navigate into it:
-
-```sh
-git clone https://github.com/LekoArts/gatsby-starter-portfolio-jodie project-name
-cd project-name
-```
-
-### 2. **Install dependencies.**
-
-If you use npm 7 or above use the `--legacy-peer-deps` flag. If you use npm 6 you can use `npm install`.
-
-```sh
-npm install --legacy-peer-deps
-```
 
 ### 3. **Open the code and start customizing!**
 
@@ -209,9 +187,3 @@ To learn more about Gatsby themes specifically, I recommend checking out the [th
 - **For most developers, I recommend starting with the [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/docs/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
 - **To dive straight into code samples, head [to Gatsby's documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _How-to Guides_ and _Reference_ items in the primary navigation.
-
-## 🌟 Supporting me
-
-Thanks for using this project! I'm always interested in seeing what people do with my projects, so don't hesitate to tag me on [Twitter](https://twitter.com/lekoarts_de) and share the project with me.
-
-Please star this project, share it on Social Media or consider supporting me on [Patreon](https://www.patreon.com/lekoarts) or [GitHub Sponsor](https://github.com/sponsors/LekoArts)!

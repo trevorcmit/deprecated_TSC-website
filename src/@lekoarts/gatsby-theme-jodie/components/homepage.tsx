@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
+import { jsx, useColorMode } from "theme-ui"
 import * as React from "react"
 import { PageProps } from "gatsby"
 import { IGatsbyImageData, GatsbyImage } from "gatsby-plugin-image"
@@ -9,6 +9,7 @@ import { itemListWrapperStyles, itemStyles } from "../styles/item-list"
 import locales from "../locales"
 import { visuallyHidden } from "../styles/utils"
 import modifyGrid from "../utils/modify-grid"
+
 
 type DataProps = {
   projects: {
@@ -41,8 +42,16 @@ const Homepage: React.FC<PageProps<DataProps>> = ({ data: { pages, projects } })
   const rawItems = [...pages.nodes, ...projects.nodes]
   const items = modifyGrid(rawItems)
   const itemsCount = items.length
-  let divisor = 9
 
+  // Code for Setting Color Mode
+  // const [colorMode, setColorMode] = useColorMode()
+  // const isDark = colorMode === `dark`
+  // const toggleColorMode = (e: React.SyntheticEvent) => {
+  //   e.preventDefault()
+  //   setColorMode(isDark ? `light` : `dark`)
+  // }
+
+  let divisor = 9
   for (let i = 0; i < itemsCount; i++) {
     const quotient = itemsCount % divisor
     const quotientAlt = (itemsCount - 1) % divisor
@@ -50,7 +59,6 @@ const Homepage: React.FC<PageProps<DataProps>> = ({ data: { pages, projects } })
     if (quotient === 0 || quotientAlt === 0) {
       break
     }
-
     divisor -= 1
   }
 

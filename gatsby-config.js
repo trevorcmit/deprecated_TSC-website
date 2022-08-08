@@ -19,12 +19,11 @@ module.exports = {
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-jodie`,
-      // See the theme's README for all available options
-      options: {
+      options: { // See the theme's README for all available options
         navigation: [
-          { name: `Projects`, slug: `/projects` },
-          { name: `Art`, slug: `/art` },
           { name: `About`, slug: `/about` },
+          { name: `Photoblog`, slug: `/projects` },
+          { name: `Art`, slug: `/art` },
           // { name: `Research`, slug: `/research`},
         ],
       },

@@ -1,9 +1,9 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { Link } from "gatsby"
-import { readableColor } from "polished"
 import { replaceSlashes } from "../utils/replace-slashes"
 import useJodieConfig from "../hooks/use-jodie-config"
+
 
 const Navigation = ({ bg }: { bg: string }) => {
   const { navigation, basePath } = useJodieConfig()
@@ -13,12 +13,12 @@ const Navigation = ({ bg }: { bg: string }) => {
       aria-label="Primary Navigation"
       sx={{
         a: {
-          color: readableColor(bg),
+          color: `text`,
           textDecoration: `none`,
           fontSize: [1, 2, 2, 3],
           marginLeft: [2, 3, 3, 0],
           "&:hover,&:focus": {
-            color: readableColor(bg, `primary`, `primaryLight`, false),
+            color:`text`,
           },
         },
         ul: {

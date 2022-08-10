@@ -3,6 +3,7 @@ import { jsx, get } from "theme-ui"
 import * as React from "react"
 import { Link } from "gatsby"
 
+
 const GridItem: React.FC<React.PropsWithChildren<{ to: string; className?: string }>> = ({
   children,
   to,

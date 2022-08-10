@@ -1,5 +1,6 @@
 require(`dotenv`).config()
 
+
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
@@ -22,8 +23,8 @@ module.exports = {
       options: { // See the theme's README for all available options
         navigation: [
           { name: `About`, slug: `/about` },
+          { name: `Research`, slug: `/research` },
           { name: `Photoblog`, slug: `/projects` },
-          { name: `Art`, slug: `/art` },
           // { name: `Research`, slug: `/research`},
         ],
       },

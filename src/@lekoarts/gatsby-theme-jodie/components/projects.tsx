@@ -9,6 +9,7 @@ import GridItem from "./grid-item"
 import locales from "../locales"
 import { visuallyHidden } from "../styles/utils"
 
+
 type DataProps = {
   projects: {
     nodes: {

@@ -22,9 +22,10 @@ const theme = merge(tailwind, {
         toggleIcon: tailwind.colors.gray[8],
         heading: tailwind.colors.black,
         divide: tailwind.colors.gray[4],
+
         modes: {
             dark: {
-                text: tailwind.colors.gray[4],
+                text: `#e9edf2`,
                 primary: tailwind.colors.purple[5],
                 secondary: `#7f8ea3`,
                 toggleIcon: tailwind.colors.gray[4],
@@ -34,6 +35,7 @@ const theme = merge(tailwind, {
                 muted: tailwind.colors.gray[8],
             },
         },
+
     },
 
     sidebar: {

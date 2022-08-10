@@ -43,14 +43,6 @@ const Homepage: React.FC<PageProps<DataProps>> = ({ data: { pages, projects } })
   const items = modifyGrid(rawItems)
   const itemsCount = items.length
 
-  // Code for Setting Color Mode
-  // const [colorMode, setColorMode] = useColorMode()
-  // const isDark = colorMode === `dark`
-  // const toggleColorMode = (e: React.SyntheticEvent) => {
-  //   e.preventDefault()
-  //   setColorMode(isDark ? `light` : `dark`)
-  // }
-
   let divisor = 9
   for (let i = 0; i < itemsCount; i++) {
     const quotient = itemsCount % divisor

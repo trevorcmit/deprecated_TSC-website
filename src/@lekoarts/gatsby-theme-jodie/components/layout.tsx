@@ -50,12 +50,12 @@ const Layout = ({ children, color = `white` }: LayoutProps) => (
     <Seo />
     <SkipNavTrigger />
     <Wrapper>
-      <Sidebar bg={color} />
+      <Sidebar bg={`background`} />
       <main sx={{ gridColumnStart: [1, 1, 1, 2] }}>
         <SkipNavTarget />
         {children}
       </main>
-      <Footer bg={color} />
+      <Footer bg={`background`} />
     </Wrapper>
   </React.Fragment>
 )

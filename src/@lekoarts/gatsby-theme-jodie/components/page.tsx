@@ -6,6 +6,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "./layout"
 import Seo from "./seo"
 
+
 type DataProps = {
   page: {
     title: string
